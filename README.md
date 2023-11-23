@@ -16,6 +16,10 @@ git remote add origin https://github.com/SHAYANSINHA/ML-PROJECT-1.git
 git push -u origin main
 
 ```
+## ECR REPO URL
+``` 
+  103216491235.dkr.ecr.ap-south-1.amazonaws.com/diamondpriceprediction
+```
 ## Docker Setup In EC2 commands to be Executed
 ``` 
 #optinal
@@ -39,14 +43,16 @@ newgrp docker
 
 ## Setup github secrets:
 ```  
-AWS_ACCESS_KEY_ID=
+AWS_ACCESS_KEY_ID = AKIARQCBOVLRUFHRZDPI
 
-AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_SECRET_ACCESS_KEY = 9zgHfZs3uztopVQunxroG/mlByDxWfkX6LiDgB19
 
-AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-ECR_REPOSITORY_NAME = simple-app
+AWS_REGION = ap-south-1
+
+AWS_ECR_LOGIN_URI = 103216491235.dkr.ecr.ap-south-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = diamondpriceprediction
 
 ```
